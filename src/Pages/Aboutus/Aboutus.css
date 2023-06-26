@@ -1,0 +1,379 @@
+.career_container_main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.career_img {
+    width: 100%;
+    height: 410px;
+    object-fit: cover;
+    position: relative;
+}
+
+.join_team_text {
+    position: absolute;
+    top: 57%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+    text-align: left;
+}
+
+.careers_title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.join_title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 54px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.join_details {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.career_container_second_div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.career_container_second_div_left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+}
+
+.career_container_second_div_right {
+    width: 50%;
+}
+
+.career_container_second_title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #222235;
+}
+
+.career_container_second_content {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 00;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    color: #000000;
+}
+
+.career2_img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+}
+
+.career_btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 49%;
+    height: 30.94px;
+    background: #000000;
+    border: 1px solid #000000;
+    color: white;
+    text-transform: uppercase;
+}
+
+.career_form {
+    width: 100%;
+    background: #141420;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.career_form_div {
+    padding: 40px;
+}
+
+.career_form_title_1 {
+    width: 50%;
+}
+
+.career_form_title {
+    width: 100%;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 46px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+.career_input {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    width: 95%;
+    height: 50px;
+    padding-left: 15px;
+    background-color: #141420;
+    border: #d9d9d9 solid 1px;
+}
+
+.check_vacancies_input {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #2f2f2f;
+    width: 95%;
+    height: 50px;
+    padding-left: 15px;
+}
+
+.career_form_row {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+}
+
+.check_vacancies_row {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+}
+
+.career_form_row_col {
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.check_vacancies_row_col {
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.check_vacancies_checkbox_row_col {
+    width: 46%;
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+}
+
+.check_vacancies_labels {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    padding-bottom: 15px;
+}
+
+.career_form_row_col1 {
+    display: flex;
+    flex-direction: row;
+    width: 46%;
+    padding-top: 33px;
+    margin-right: 30px;
+}
+
+.career_form_row_col1 .career_input_margin {
+    margin-left: 5px;
+}
+
+.career_form_row_col2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 33px;
+    margin-right: 30px;
+}
+
+.career_form_row_submit_btn {
+    width: 85%;
+    justify-content: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.career_form_labels {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    padding-bottom: 15px;
+}
+
+.career_textarea {
+    height: 150px;
+    padding-top: 15px;
+}
+
+.check_vacancies_div {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+.check_vacancies_title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #222235;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.submit_btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 270px;
+    height: 39px;
+    background: #ffffff;
+    border: 1 solid #c8c8c8;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+@media Screen and (max-width: 1109px) {
+    .join_team_text {
+        top: 68%;
+        left: 50%;
+    }
+
+    .buttons_div {
+        flex-direction: column;
+    }
+
+    .career_btn {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+}
+
+@media Screen and (max-width: 600px) {
+    .join_team_text {
+        top: 85%;
+    }
+
+    .career_container_second_div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .career_container_second_div {
+        height: auto;
+    }
+
+    .career_container_second_div_right {
+        width: 100%;
+    }
+
+    .career_container_second_div_left {
+        width: 88%;
+        padding: 20px;
+    }
+}
+
+@media Screen and (max-width: 500px) {
+    .join_team_text {
+        top: 85%;
+        left: 50%;
+        width: 90%;
+    }
+
+    .career_form_row {
+        flex-direction: column;
+    }
+
+    .career_form_row_col,
+    .career_form_row_col1,
+    .career_form_title_1,
+    .check_vacancies_row_col {
+        width: 100%;
+    }
+
+    .career_form_row_col {
+        margin-top: 10px;
+    }
+
+    .career_form_row {
+        padding-bottom: 0px;
+    }
+}
+
+@media Screen and (max-width: 350px) {
+    .join_team_text {
+        top: 95%;
+    }
+}

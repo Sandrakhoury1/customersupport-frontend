@@ -1,0 +1,45 @@
+.width {
+    width: 80%;
+}
+
+.list-group-item.receiver {
+    background-color: #f2f2f2;
+    /* Change color as desired */
+    text-align: left;
+
+}
+
+.list-group-item.sender {
+
+    /* Change color as desired */
+    text-align: right;
+
+}
+
+.height {
+    min-height: 100vh;
+}
+
+.card-body {
+    max-height: 400px;
+    /* Set the maximum height as per your requirement */
+    overflow-y: auto;
+}
+
+.admin-name {
+    color: grey;
+    /* Change color as desired */
+}
+
+.ticket-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.rtl {
+    direction: rtl;
+}
+
+.ltr {
+    direction: ltr;
+}

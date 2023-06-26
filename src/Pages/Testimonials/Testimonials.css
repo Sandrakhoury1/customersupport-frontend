@@ -1,0 +1,81 @@
+.Main_test_div {
+    height: auto;
+    padding-top: 4rem;
+}
+
+.testimonials_heading {
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.testimonials_subheading {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: grey;
+}
+
+.testimonials_cards {
+    background: #72c095;
+    margin-top: 5rem;
+    padding: 20px 50px;
+}
+
+.testimonials_cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.masterclass_body_first_div {
+    width: 30%;
+    margin: auto;
+    /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
+}
+
+.green_carousell {
+    background: #72c095;
+    padding: 20px 50px;
+    margin-top: 5rem;
+}
+
+.react-multi-carousel-list {
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.react-multi-carousel-item {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    position: relative !important;
+    width: 512px;
+}
+
+.react-multi-carousel-track {
+    display: flex;
+    position: relative;
+    gap: 2rem;
+    width: 100%;
+    z-index: 1;
+}
+
+.testimonial_Add {
+    background-color: #72c095;
+    color: white;
+    border: none;
+    padding: 10px;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}

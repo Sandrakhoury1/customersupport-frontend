@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300i,400,700,800');
+
+.Main_tickets{
+    min-height: 100vh;
+  }
+[data-component='card'] {
+  .card {
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    .card-title {
+    font-weight: 800;
+    }
+    
+    .list-group {
+      .badge {
+      line-height:2;
+      }
+      .badge-info {
+        background-color: #00C9D4;
+      }
+      .badge-primary {
+        background-color: #4BA8F1;
+      }
+      .badge-danger {
+        background-color: #FF5C61;
+      }
+        .badge-warning {
+            background-color: #FFC107;
+        }
+    }
+    
+    .card-link {
+      font-weight: 400;
+      &:hover {
+        color: #55C2D9;
+      }
+    }
+    
+    p {
+      font-size: 0.8em;
+    }
+    
+    button {
+      background-color: #009EFF;
+      &:hover {
+        background-color: #026ecc;
+      }
+    }
+  }
+  .text_tickers{
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+
+}

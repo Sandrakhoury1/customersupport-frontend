@@ -1,0 +1,17 @@
+.box_cont {
+    width: 250px;
+    height: 100px;
+    background-color: lightgray !important;
+    display: flex;
+    justify-content: center;
+    z-index: -9999999;
+    position: absolute;
+    right: 0;
+}
+
+.cont {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}

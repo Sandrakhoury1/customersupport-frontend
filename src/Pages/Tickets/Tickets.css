@@ -1,0 +1,17 @@
+.button_create {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.Main_tickets_component {
+    padding-bottom: 2rem;
+    width: 80%;
+    margin: auto;
+
+}

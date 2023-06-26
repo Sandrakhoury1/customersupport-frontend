@@ -1,0 +1,111 @@
+.Main_green_carousell {
+    width: fit-content;
+}
+
+.green_carousell_title {
+    color: var(--white);
+    font-family: var(--bold);
+    text-align: center;
+    font-size: 2rem;
+}
+
+.green_carousell_hr {
+    width: 134px;
+    margin: auto;
+    margin-top: 2rem;
+    border-bottom: 10px solid white;
+    border-radius: 20px;
+    margin-bottom: 5rem;
+
+}
+
+.quote-img-green {
+    height: 400px;
+    position: relative;
+
+}
+
+.green_carousell .carousel .slide img {
+    /* width: 100%; */
+    vertical-align: top;
+    border: 0;
+}
+
+.green_carousell_content_container {
+    display: flex;
+}
+
+.green_carousell_contents {
+    position: relative;
+    margin-bottom: 2rem;
+    width: fit-content;
+
+}
+
+.react-multi-carousel-dot--active button {
+    background-color: var(--pink) !important;
+}
+
+.react-multi-carousel-dot button {
+    border-color: var(--primary) !important;
+    background: white;
+}
+
+.green_carousell_texts {
+
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    width: 85%;
+    transform: translate(-50%, -50%);
+    text-Align: center;
+    color: white;
+}
+
+.green_carousell_subs {
+    color: #fff;
+    margin: auto;
+    position: absolute;
+    top: 70%;
+    width: 53%;
+    text-align: center;
+    left: 23%;
+
+}
+
+@media (max-width:500px) {
+    .quote-img-green {
+        height: 350px;
+    }
+
+    .green_carousell_subs {
+        display: none;
+    }
+
+    .green_carousell_texts {
+        top: 50%;
+        left: 50%;
+        width: 77%;
+
+    }
+}
+
+@media (max-width:435px) {
+    .quote-img-green {
+        height: 300px;
+    }
+
+    .green_carousell_texts {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:360px) {
+    .quote-img-green {
+        height: 230px;
+    }
+
+    .green_carousell_texts {
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,32 @@
+.colorred {
+    background-color: lightgreen !important;
+}
+
+.colorcyan {
+    background-color: lightcoral !important;
+}
+
+.coloryellow {
+    background-color: lightskyblue !important;
+}
+
+.colorblue {
+    background-color: lightblue !important;
+}
+
+.body {
+    width: 250px;
+}
+
+.cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.font {
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}

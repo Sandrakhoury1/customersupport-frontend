@@ -1,0 +1,15 @@
+.Main_news {
+    height: auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.news_content {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    margin-top: 8rem;
+    align-items: center;
+    gap: 2rem;
+}

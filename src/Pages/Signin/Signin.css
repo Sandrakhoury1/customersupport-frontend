@@ -1,0 +1,139 @@
+.sign_in_container_main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
+
+}
+
+.sign_in_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: initial;
+    width: 36%;
+}
+
+.sign_in_title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #141420;
+}
+
+.input_label {
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.forgot_div {
+    cursor: pointer;
+}
+
+.email_input,
+.password_input {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150;
+    letter-spacing: 0.02em;
+    color: #2f2f2f;
+    width: 70%;
+    height: 44px;
+    padding-left: 15px;
+}
+
+.remember_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 75%;
+}
+
+.sign_in_container_main .login_btn {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30.94px;
+    background: #000000;
+    border: 0.847134px solid #000000;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.create_acc {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #2f2f2f;
+    text-align: center;
+    padding-top: 30px;
+    cursor: pointer;
+    width: 75%;
+}
+
+.text_cont {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+    margin-top: 1rem;
+    width: 75%;
+}
+
+.signup_div {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 15px;
+    cursor: pointer;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    width: 75%;
+}
+
+.text_cont_err {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 15px;
+    margin-top: 1rem;
+    width: 75%;
+    color: red;
+}
+
+.verify_text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 15px;
+    margin-top: 1rem;
+    width: 75%;
+    color: green;
+}
+
+@media (max-width: 700px) {
+    .sign_in_container {
+        width: 80%;
+    }
+}
